@@ -1,0 +1,71 @@
+body {
+    font-family: "Lucida Console", "Courier New", monospace, sans-serif;
+    background-image: url('restaurant4.jpg');
+    background-color: #cccccc;
+    background-size: cover;
+    color: #ffffff;
+    margin: 0em 5em;
+}
+
+table, label, h1, h2 {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: center;
+}
+
+nav{
+    height: 3em;
+    text-align: center;
+    padding: 1em;
+}
+
+table{
+    background-color:  lightyellow;
+    color:black;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 0.5em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+p a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+    background-color: lightyellow;
+    color: black;
+}
+
+form{
+    width: 50%;
+}
+
+form input{
+    width: 100%;
+}
